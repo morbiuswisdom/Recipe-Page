@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 4rem;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 2rem;
+}
+
+h1, h2, h3{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+
+h1{
+    color: hsl(24, 5%, 18%);
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+    color: hsl(14, 45%, 36%);
+}
+
+h3{
+    font-size: 1.5rem;
+    color: hsl(332, 51%, 32%);
+    margin-top: 0;
+}
+
+p, p ul, li{
+    font-family: "Outfit", sans-serif;
+    font-size: 1rem;
+
+}
+
+ul li, ol li{
+    margin: 1rem;
+}
+
+.light-brown div{
+    background-color: hsl(330, 100%, 98%);
+    padding: 2rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+
+hr{
+    color: hsl(30, 54%, 90%);
+    margin: 2rem 0;
+    
+}
+
+table{
+    font-family: "Outfit", sans-serif;
+}
+
+tr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+    padding: 1rem;
+    border-bottom: 1px solid hsl(30, 54%, 90%);
+}
+
+.last{
+    border-bottom: none;
+}
+
+.dark-brown{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+    text-align: left;
+}
+
+.attribution{
+    font-family: "Outfit", sans-serif;
+    margin: 2rem 0;
+}
+
+.attribution a{
+    transition: 0.7s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.attribution a:hover{
+    font-weight: 700;
+}
+
+
+
+/* Mobile <576px */
+@media (max-width:768px){
+    body{
+        padding: 0;
+    }
+
+    img{
+        border-radius: 0;
+    }
+
+    .padded{
+        padding: 1rem 2rem;
+    }
+}
