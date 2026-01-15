@@ -19,8 +19,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
-- Live Site URL: [Add live site URL here](https://morbiuswisdom.github.io/Recipe-Page/)
+- Solution URL: [Link](https://www.frontendmentor.io/solutions/recipe-page-built-with-html-and-css-4TK0_q5sAP)
+- Live Site URL: [Link](https://morbiuswisdom.github.io/Recipe-Page/)
 
 ## My process
 
